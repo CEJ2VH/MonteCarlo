@@ -1,6 +1,32 @@
 ## MonteCarlo Simulation Package
 
-## Modules
+## Metadata
+
+Package Name: MonteCarlo
+
+Developer: Sarah Hall (CEJ2VH)
+
+## Synopsis  
+
+'''
+#Make 3 dice using a NumPy array
+dt1=die(np.array([1,2,3,4]))
+dt2=die(np.array([1,2,3,4]))
+dt3=die(np.array([1,2,3,4]))
+
+#Add those dice to a list
+dt=[dt1,dt2,dt3]
+
+#Pass the list to a game object. This allows you to "play"
+gt=game(dt)
+gt.play(10)
+
+#You can pass the game to an analyzer to get other metrics
+anlyz=analyzer(gt)
+anlyz.combo_count()
+'''
+
+## Module Metadata 
 
 There are three modules in this package- the die, the game, and the analyzer.  
 
