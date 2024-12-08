@@ -6,7 +6,7 @@ setup(
     author = 'Sarah Hall',
     author_email = 'CEJ2VH@virginia.edu',
     packages = ['MonteCarlo.py', 'unittesting.py'],
-    url = 'http://pypi.python.org/pypi/PackageName/',
+    url = 'https://github.com/CEJ2VH/MonteCarlo',
     license = 'BSD',
     description = 'Packge to create dice, roll them in a game, and analyze the rolls',
     long_description = open('README.md').read(),
