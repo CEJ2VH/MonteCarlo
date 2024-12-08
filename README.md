@@ -17,6 +17,9 @@ dt3=die(np.array([1,2,3,4]))
 #Add those dice to a list
 dt=[dt1,dt2,dt3]
 
+#You can change the weight of a die face if you like. This makes the face more likely to be rolled
+dt2.change_weight(1,5)
+
 #Pass the list to a game object. This allows you to "play"
 gt=game(dt)
 gt.play(10)
@@ -24,6 +27,7 @@ gt.play(10)
 #You can pass the game to an analyzer to get other metrics
 anlyz=analyzer(gt)
 anlyz.combo_count()
+anlyz.permutation_count()
 ```
 
 ## Module Metadata 
