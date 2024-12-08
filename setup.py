@@ -5,7 +5,7 @@ setup(
     version = '1.0.0',
     author = 'Sarah Hall',
     author_email = 'CEJ2VH@virginia.edu',
-    packages = ['MonteCarlo.py', 'unittesting.py'],
+    packages = ['MonteCarlo'],
     url = 'https://github.com/CEJ2VH/MonteCarlo',
     license = 'BSD',
     description = 'Packge to create dice, roll them in a game, and analyze the rolls',
