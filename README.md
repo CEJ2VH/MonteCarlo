@@ -8,7 +8,7 @@ Developer: Sarah Hall (CEJ2VH)
 
 ## Synopsis  
 
-'''
+```
 #Make 3 dice using a NumPy array
 dt1=die(np.array([1,2,3,4]))
 dt2=die(np.array([1,2,3,4]))
@@ -24,7 +24,7 @@ gt.play(10)
 #You can pass the game to an analyzer to get other metrics
 anlyz=analyzer(gt)
 anlyz.combo_count()
-'''
+```
 
 ## Module Metadata 
 
