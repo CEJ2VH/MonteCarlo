@@ -136,7 +136,7 @@ Methods and objects (from the docstring)
         game object got the same face value for a given roll.
 
     Arguments: None
-        Outputs: Count of times all dice rolled the same face value
+        Outputs: (int) Count of times all dice rolled the same face value
 
     *face_counts_per_roll* Takes the last play result from the game object and calculates how many
         times each face was rolled, per roll.
