@@ -98,8 +98,8 @@ Methods and objects (from the docstring)
     
     Methods: __init__, play, most_recent_play
     Callable attributes:
-        dice- list of dice for rolling
-        num_dice- number of dice per game
+        dice (np array)- list of dice for rolling
+        num_dice (int)- number of dice per game
 
     **__init__* Creates a game object, which is simply a collection of dice. 
         Arguments: List of dice with sides and weights
@@ -108,7 +108,7 @@ Methods and objects (from the docstring)
     *play* Clears any previous roll results.
         Rolls all dice in the dice list a given number of times  and saves the results
 
-        Arguments: n_rolls- number of times all dice should be rolled
+        Arguments: n_rolls (int)- number of times all dice should be rolled
         Outputs: None  
 
     *most_recent_play* Returns the last sets of rolled dice results with two format options.
@@ -125,6 +125,9 @@ Methods and objects (from the docstring)
 
     *__init__* Creates an object that is passed a game to initialize. Saves the last results
         of the game.play() output, as well as the die and side information
+
+        Two variables are created. stats(dataframe) contains the data in the game according to most_recent_play()
+        game (of type game) stores all necessary information about the game object
 
         Arguments: gameobj- object of type 'game'
         Outputs: None
